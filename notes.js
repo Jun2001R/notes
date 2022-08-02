@@ -6,7 +6,7 @@ let check;
 let complete = 1;
 let addBtn = document.querySelector('#addBtn');
 addBtn.addEventListener('click', function () {
-
+complete=1;
     let addTxt = document.querySelector('#addTxt');
     let addTitle = document.querySelector('#addTitle');
     let notes = localStorage.getItem('notes');
