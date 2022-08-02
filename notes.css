@@ -1,0 +1,61 @@
+body{
+    padding-bottom: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#messagesuccess
+{
+display: block;
+position: fixed;
+height: auto;
+width: 100%;
+bottom: 0px;
+
+}
+#messagewarn
+{
+display: block;
+position: fixed;
+height: auto;
+width: 100%;
+bottom: 0px;
+
+}
+ .alert
+{
+margin-bottom: 0px;
+}
+.navbar
+{
+    width:100%;
+    display: block;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+.container
+{
+    position: relative;
+    /* margin-top: 110px; */
+    padding-top: 130px;
+    
+}
+.editBtn{
+    position: absolute;
+    bottom: 20px;
+left: 10px;
+}
+.content{
+    background: url('/Screenshot\ 2022-08-02\ 171411.png');
+    background-size:cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    backface-visibility: calc(0.8);
+}
+.contentnotes{
+    background: url('/81-810906_free-art-wallpaper-bright-colors.jpg');
+    background-size:cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+}
