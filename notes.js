@@ -166,6 +166,16 @@ function showAlert5(index) {
         messagewarn.innerHTML = '';
     }, 2000);
 }
+function showAlert6() {
+
+    let messagewarn = document.getElementById('messagewarn');
+    messagewarn.innerHTML = ` <div class="alert alert-warning alert-dismissible fade show" role="alert" style="text-align:center">
+    <strong>Note Not Found!</strong> 
+  </div>` ;
+    setTimeout(() => {
+        messagewarn.innerHTML = '';
+    }, 2000);
+}
 //to delete the objects
 
 function deleteNotes(index) {
@@ -217,9 +227,7 @@ function deleteNotes(index) {
         if (checkit == 0) {
             checkit = 1;
             let notes = document.getElementById('notes');
-            notes.innerHTML = ` <div class="alert alert-warning alert-dismissible fade show" role="alert" style="text-align:center">
-            <strong>Note Not Found!</strong> 
-          </div>`
+                 showAlert6();
         }
     })
 }
@@ -245,9 +253,7 @@ function deleteNotes(index) {
         if (checkit == 0) {
             checkit = 1;
             let notes = document.getElementById('notes');
-            notes.innerHTML = ` <div class="alert alert-warning alert-dismissible fade show" role="alert"style="text-align:center">
-                <strong>Note Not Found!</strong> 
-              </div>`
+                 showAlert6();
         }
 
 
