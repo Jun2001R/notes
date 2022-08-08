@@ -282,7 +282,6 @@ function editNotes(index) {
 
 
     if (complete == 1) {
-        console.log(editId.childNodes[1].childNodes)
         let text = editId.childNodes[1].childNodes[5].innerText;
         let texttitle = editId.childNodes[1].childNodes[1].innerText;
         // console.log(notesObj[index]);
