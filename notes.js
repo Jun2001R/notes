@@ -209,7 +209,7 @@ function deleteNotes(index) {
 
     searchTxttitle.addEventListener('input', function (element) {
         // let search = document.getElementById('searchTxt');
-        showNotes();
+        
         element.preventDefault();
         let checkit = 0;
         let inputVal = search.value;
@@ -234,7 +234,7 @@ function deleteNotes(index) {
 {
     let search = document.getElementById('searchTxtcontent');
     searchTxtcontent.addEventListener('input', function (element) {
-        showNotes();
+        
         // let search = document.getElementById('searchTxt');
         element.preventDefault();
         let checkit = 0;
